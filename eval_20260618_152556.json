@@ -1,0 +1,233 @@
+{
+  "model": "history-qa",
+  "eval_count": 20,
+  "summary": {
+    "count": 20,
+    "avg_rouge_l": 0.1913,
+    "avg_token_f1": 0.2963,
+    "avg_key_fact_recall": 0.4717,
+    "avg_combined": 0.3198
+  },
+  "results": [
+    {
+      "question": "What were the key differences in the selection processes for government officials between the Song and Tang dynasties?",
+      "reference": "The governmental selection processes varied not only in structure but also in their philosophical foundations between the Tang and Song dynasties. The Tang dynasty's method of selecting mandarins was rooted in maintaining a balance of power between military leaders and civilian officials, as highlighted by the need to restrain generals through appointed mandarins. The reforms initiated during the Song dynasty, however, embraced a stronger commitment to Confucian ideals and the governance of scholar-officials. This reform was underpinned by the belief that superior leadership should stem from intellectual merit, leading to significant societal changes, such as the elevation of talented individuals from peasant backgrounds gaining access to official positions. Thus, while the Tang initially relied on a system that incorporated social elite advantages, the Song dynasty's reforms profoundly democratized official selection within the framework of Confucianism.",
+      "prediction": "According to the reference examples, the main difference in the selection processes for government officials between the Song and Tang dynasties was the introduction of a rigorous examination system based on Confucian texts during the Song dynasty.\n\nIn contrast, the Tang dynasty did not have a well-established examination system. The selection process during the Tang dynasty is not explicitly mentioned in the reference examples.\n\nThe meritocratic approach introduced by the Song dynasty allowed for social mobility and connected the state with its citizens, whereas the Tang dynasty's system is not described in detail.",
+      "scores": {
+        "rouge_l": 0.206,
+        "token_f1": 0.3007,
+        "key_fact_recall": 0.6,
+        "combined": 0.3689
+      }
+    },
+    {
+      "question": "What term do some groups in North Africa use to refer to themselves instead of Berber?",
+      "reference": "Some groups in North Africa prefer to call themselves **Amazigh** (with its plural form being **Imazighen**) rather than Berber. This preference illustrates a significant cultural and emotional aspect of identity, as Amazigh is associated with a heritage of resilience and rich traditions formed through complex historical relationships among indigenous populations. The term not only signifies a distinct ethnic identity but also plays a crucial role in unifying different groups within the region, positing them against external narratives that may not fully capture their historical experiences and societal contributions.",
+      "prediction": "In reference to Example 2, some groups in North Africa refer to themselves as **Amazigh** (also spelled Amazigh or Imazighen) instead of Berber. This term is used by various ethnic groups in North Africa, including the Tuareg and Kabyle, who identify with this name to distinguish their identity from the external label \"Berber\".",
+      "scores": {
+        "rouge_l": 0.227,
+        "token_f1": 0.3966,
+        "key_fact_recall": 1.0,
+        "combined": 0.5412
+      }
+    },
+    {
+      "question": "Who was the Persian king known for allowing exiled peoples to return to their homelands?",
+      "reference": "The Persian king **Cyrus II** is recognized for his pivotal role in the return of exiled peoples to their homelands, particularly the Judeans. His decree allowed those expelled from their territories, such as the Judeans in Babylon, to return and reconstruct their sacred temple in Judah. This action not only reflected Cyrus's policies of benevolence but also had lasting implications for Jewish history, particularly in terms of restoration and identity. By choosing not to impose Persian culture on the various groups under his rule, Cyrus II demonstrated a unique style of leadership that prioritized loyalty and tribute over cultural assimilation.",
+      "prediction": "Based on the reference examples provided, I couldn't find any information about a specific Persian king who allowed exiled peoples to return to their homelands. However, I can suggest that you may be thinking of Darius I, who reorganized the Persian Empire and implemented various administrative reforms, including allowing satraps (governors) to operate semi-autonomously in their provinces.",
+      "scores": {
+        "rouge_l": 0.15,
+        "token_f1": 0.272,
+        "key_fact_recall": 0.0,
+        "combined": 0.1407
+      }
+    },
+    {
+      "question": "What is celadon ceramic known for?",
+      "reference": "Celadon ceramic is renowned for its **lustrous green glaze**, a distinctive feature that sets it apart from other ceramic traditions. This ceramic was crafted by skilled Korean artisans who, over time, adopted techniques from China to create a variety of exquisite items such as **vases**, **jugs**, and **bowls**. The beauty of celadon ceramics is often enhanced with intricate **Buddhist motifs**, depicting symbols like cranes and clouds, which reflect the cultural and spiritual values of the period. Additionally, these ceramics played a vital role in supporting trade networks that facilitated commerce between China, Korea, and Japan in later centuries, indicating their importance in economic exchanges.",
+      "prediction": "Celadon ceramic is not mentioned in the provided reference examples. However, according to general knowledge from OpenStax World History Volume 1, Celadon ceramic is a type of pale green glaze that was used in Chinese ceramics during the Neolithic period (around 3000-1000 BCE).",
+      "scores": {
+        "rouge_l": 0.1351,
+        "token_f1": 0.2419,
+        "key_fact_recall": 0.0,
+        "combined": 0.1257
+      }
+    },
+    {
+      "question": "Who was the Syrian teacher that brought Christianity to the kingdom of Aksum?",
+      "reference": "Christianity was brought to the kingdom of Aksum primarily through the efforts of **Frumentius**, a Syrian teacher. His arrival and subsequent teachings not only heralded the spread of Christianity in Aksum but also reflected broader trends of evangelism during that period. This introduction was crucial because it helped transform Aksum into one of the early Christian states in Africa, which had lasting implications for the region's religious landscape, influencing both culture and governance.",
+      "prediction": "Unfortunately, I couldn't find any information in the provided examples about a specific Syrian teacher who brought Christianity to the Kingdom of Aksum. The examples mention the spread of Christianity within the kingdom, but they do not provide details about a particular individual who introduced Christianity to Aksum.",
+      "scores": {
+        "rouge_l": 0.2114,
+        "token_f1": 0.2947,
+        "key_fact_recall": 0.0,
+        "combined": 0.1687
+      }
+    },
+    {
+      "question": "Who was the sultan that succeeded Qutuz after his assassination?",
+      "reference": "**Baybars** was the commander who took over the sultanate after the assassination of Qutuz. His rise to power occurred in the aftermath of the Mamluk triumph at the **Battle of Ain Jalut** in 1260, which successfully halted Mongol advances in the region. Baybars not only asserted his claim to the throne but also founded the **Bahri dynasty**, reflecting the complex dynamics of mamluk rule, where leaders were often not descendants of previous rulers. This shift in leadership exemplifies the challenges of maintaining stability within the Mamluk Sultanate, where various military factions could quickly overthrow a sitting sultan, leading to an era marked by turmoil and rapid leadership changes.",
+      "prediction": "According to the reference, Sultan Qutuz was assassinated in 1260. The next sultan is not explicitly mentioned as succeeding him immediately, but it can be inferred that the Mamluk Sultanate continued under a new leader. However, the text does mention the tumultuous political landscape of the Mamluk Sultanate and frequent coups among its leaders.\n\nA more accurate answer would be: There is no information provided in the reference about who specifically succeeded Qutuz after his assassination.",
+      "scores": {
+        "rouge_l": 0.1848,
+        "token_f1": 0.2714,
+        "key_fact_recall": 0.0,
+        "combined": 0.1521
+      }
+    },
+    {
+      "question": "How did Romans incorporate new gods into their religious practices while maintaining traditional elements, and what role did sacrifice play in their religion?",
+      "reference": "The Romans demonstrated a unique approach to incorporating new gods into their religious practices while retaining traditional elements. Firstly, Roman religion was rooted in the Greek pantheon, which provided a foundational framework that allowed for adaptation and integration of new deities. For instance, sectors such as the military often adopted favorite patron gods that aligned with their experiences and needs during warfare. This adaptability meant that while Romans honored their established gods, they were also receptive to integrating new divine figures to reflect cultural and political changes. For example, the emergence of the imperial cult showcased how the deified emperors became part of the religious landscape, allowing for the union of traditional worship with new practices of emperor veneration. This blending maintained religious continuity while allowing for new expressions of faith.\n\nSacrifice played a pivotal role in Roman religion, viewed as a primary means of interacting with the divine. Offering animals was considered essential not only for securing favor from the gods but also for obtaining insights into human affairs. The practice of sacrifice was intertwined with civic life and often held public significance, highlighting the relationship between faith and politics. This connection extended to the worship of emperors, where sacrifices were made to honor their divine status, further illustrating how sacrifice served both personal and political purposes in Roman society.",
+      "prediction": "According to the reference examples:\n\nRomans incorporated new gods into their religious practices by adopting aspects of local religions and practices. For instance, Roman religion interacted with mystery cults, allowing for a blending of beliefs that appealed to different social strata.\n\nSacrifice played a role in Roman religion as well. While specific details are not mentioned in the provided examples, it is known from historical records that Romans practiced various forms of sacrifice, such as animal sacrifices and libations, to appease their gods and maintain the stability of the cosmos.",
+      "scores": {
+        "rouge_l": 0.2315,
+        "token_f1": 0.3039,
+        "key_fact_recall": 0.6,
+        "combined": 0.3785
+      }
+    },
+    {
+      "question": "What types of goods and cultural influences did the Tang dynasty acquire from merchants moving from Sasanian Persia?",
+      "reference": "The cultural and economic exchanges initiated by merchants from Sasanian Persia during the Tang dynasty significantly impacted Chinese society. These merchants not only introduced **luxurious goods** like silver artworks but also facilitated the arrival of new ideas and concepts. For instance, **new musical forms** along with innovative **dancing styles** became integrated into the Tang's cultural repertoire, illustrating the deep influence of Persian-Arab culture. Furthermore, the increasing trade interactions with regions such as India brought additional elements like **mathematics**, **new sciences**, and **medicines**, showcasing a multifaceted impact on Tang society that stemmed from these international connections.",
+      "prediction": "According to Example 1, the Tang dynasty acquired exotic goods and cultural forms from Persia (Sasanian royal family) through their arrival in Chang'an. These included:\n\n* Exotic goods\n* New sciences\n* Mathematics\n* Cultural practices\n\nThese acquisitions significantly broadened the cultural landscape of the Tang dynasty.",
+      "scores": {
+        "rouge_l": 0.1702,
+        "token_f1": 0.3009,
+        "key_fact_recall": 0.3333,
+        "combined": 0.2681
+      }
+    },
+    {
+      "question": "What were the two main motivations for the Christians to initiate the Third Crusade?",
+      "reference": "In analyzing the motivations behind the initiation of the Third Crusade, two main factors emerge: fear of annihilation and the yearning for territorial reclaim. After the devastating defeat of the crusaders and the takeover of Jerusalem by Saladin, there was a profound sense of **urgency** among Christian monarchs who feared that the elimination of Christian presence in the Holy Land was imminent. This fear catalyzed a coalition of kings and princes to take action. Alongside this, the **aspiration to recover Jerusalem** itself fueled the crusaders, as the city was viewed as central to Christian identity and faith. Thus, the Third Crusade was characterized by a mix of defensive and offensive motivations, reflecting both the pressures of the time and the lasting significance of Jerusalem in Christian belief.",
+      "prediction": "Based on the provided examples, I couldn't find any information about the Third Crusade. However, I can provide information on the Second Crusade and its motivations.\n\nThe Second Crusade was initiated in response to the fall of Edessa (modern-day Şanlıurfa, Turkey) to the Seljuk Turks in 1144. The two main motivations for the Christians to initiate the Second Crusade were:\n\n1. **Retake Edessa**: To retake the city from the Seljuk Turks and protect Christian territories.\n2. **Relief of Jerusalem**: To provide relief to the city of Jerusalem, which was also under threat from Muslim forces.\n\nPlease note that these motivations are based on general knowledge about the Second Crusade and not specifically mentioned in the provided examples.",
+      "scores": {
+        "rouge_l": 0.2105,
+        "token_f1": 0.2222,
+        "key_fact_recall": 0.0,
+        "combined": 0.1442
+      }
+    },
+    {
+      "question": "What significant cultural aspects contributed to the growth of literacy and education in Baghdad during the Abbasid period?",
+      "reference": "### Cultural Support for Learning\nDuring the Abbasid period, the early Abbasids created a vibrant society that profoundly valued learning. This cultural atmosphere was critical for fostering education and increasing literacy among the population. The establishment of the **Abbasid Translation Movement** was a key factor in this development, as it facilitated access to a wide range of knowledge from Greco-Roman texts. By promoting translations and the sharing of ideas, the Abbasid court helped transition Baghdad into a center of intellectual growth and literacy during the Middle Ages.\n\nAdditionally, while the majority of people were not literate at that time, the emphasis on education set an important precedent that would influence future generations. The successful blend of different cultures, fostered by this movement, encouraged individuals to engage in scholarship and learning, cementing Baghdad's reputation as a hub of education.",
+      "prediction": "The significant cultural aspects that contributed to the growth of literacy and education in Baghdad during the Abbasid period include:\n\n1. The **Abbasid Translation Movement**, which aimed to translate Greek texts into Arabic, promoting education and literacy.\n2. Wealthy patrons within the Abbasid ruling class providing funding for scholarly work, supporting the translation movement and professional education of bureaucrats (secretaries).\n3. Strong governmental support for scholarship, transforming Baghdad into a center of learning in the medieval world.\n\nThese cultural aspects collectively enhanced the level of education and literacy within the empire, bridging civilizations and laying the groundwork for future advancements in various fields.",
+      "scores": {
+        "rouge_l": 0.2231,
+        "token_f1": 0.319,
+        "key_fact_recall": 1.0,
+        "combined": 0.5141
+      }
+    },
+    {
+      "question": "Which Mongol khanate was involved in failed attempts to conquer the Delhi Sultanate?",
+      "reference": "The **Chagatai Khanate** was the Mongol division that engaged in several failed attempts to conquer the **Delhi Sultanate**. These attempts weakened the khanate and highlighted the difficulties the Mongols faced in extending their influence in the Indian subcontinent. The failures of these military campaigns can be attributed to a combination of strong local defenses, unfamiliar terrain, and logistical challenges that the Chagatai forces encountered while trying to assert control over the region. Overall, this period reflects the limitations of even the expansive Mongol empire when facing established and organized states like the Delhi Sultanate.",
+      "prediction": "The Chagatai Khanate was involved in failed attempts to conquer the Delhi Sultanate.",
+      "scores": {
+        "rouge_l": 0.2243,
+        "token_f1": 0.2821,
+        "key_fact_recall": 1.0,
+        "combined": 0.5021
+      }
+    },
+    {
+      "question": "What significant architectural construction is associated with Amenhotep I?",
+      "reference": "Amenhotep I is notably associated with the **Temple of Amun at Karnak**, which was one of the major architectural constructions during his reign. This temple served as a significant religious center, honoring Amun, who was elevated in status among Egyptian deities at the time. The construction of such magnificent temples underscores the wealth and power that Amenhotep I inherited from his father, Ahmose, as part of the New Kingdom's extensive building initiatives. Additionally, the Temple of Amun at Karnak played a crucial role in the religious and political life of the New Kingdom, marking an era where pharaohs interlinked their reigns with divine favor.",
+      "prediction": "Unfortunately, there is no reference to Amenhotep I's architectural construction in the provided examples. The examples only mention Djoser's step pyramid, Mansa Musa's projects in Timbuktu, and La Venta's monuments and features, but not Amenhotep I.",
+      "scores": {
+        "rouge_l": 0.1379,
+        "token_f1": 0.1731,
+        "key_fact_recall": 0.0,
+        "combined": 0.1037
+      }
+    },
+    {
+      "question": "Who was the missionary that significantly contributed to the spread of Christianity in Ethiopia?",
+      "reference": "The missionary who significantly contributed to the spread of Christianity in Ethiopia was **Frumentius**. After being shipwrecked on the Eritrean coast, he was taken to the royal court where he educated King **Ezana**, who was initially a polytheist. Frumentius's pivotal role led to Ezana's conversion and subsequent request for a bishop from Egypt. As a result, **Athanasius**, the bishop of Alexandria, appointed Frumentius as the first bishop of Ethiopia, where he took on the name **Selama** and is believed to have founded Ethiopia's first Christian monastery.",
+      "prediction": "The answer is Frumentius. According to the reference examples, Frumentius played a pivotal role in the conversion of King Ezana of Aksum to Christianity and later became the first bishop of Ethiopia, laying the foundations for organized Christianity within the region.",
+      "scores": {
+        "rouge_l": 0.2462,
+        "token_f1": 0.4091,
+        "key_fact_recall": 0.5,
+        "combined": 0.3851
+      }
+    },
+    {
+      "question": "What occurred in ancient Egypt around 3150 BCE?",
+      "reference": "In the timeline of ancient Egypt, around 3150 BCE stands out as a key moment of historical significance due to the unification of Upper and Lower Egypt. The blend of these cultures led to the establishment of a powerful centralized kingdom, driven by the leadership of a prominent figure, likely Narmer. This unification was not merely political; it also represented a convergence of customs, traditions, and social practices from the two previously distinct societies. Consequently, this event paved the way for advancements in governance, cultural expression, and monument building that would characterize the Egyptian civilization for millennia.",
+      "prediction": "Around 3150 BCE, the unification of Egypt under the early dynasties took place, as depicted in the Narmer Palette. This marked the beginning of a stable nation and the establishment of foundational elements of Egyptian civilization, including the pharaoh institution, early religious practices, and hierarchical governance.",
+      "scores": {
+        "rouge_l": 0.2238,
+        "token_f1": 0.3303,
+        "key_fact_recall": 0.6,
+        "combined": 0.3847
+      }
+    },
+    {
+      "question": "What group did the Sorko dominate in their region?",
+      "reference": "In the context of regional control, the Sorko emerged as a dominant force over the **Gabibi farmers**, particularly through their strategic use of waterways for trade and raiding. By the ninth century, as new groups, including nomadic horse-riders, began to infiltrate the region, the Sorko maintained their status by establishing a network of villages that served as both trading posts and bases for their raids. This aggressive expansion and the resultant dominance over the Gabibi ultimately contributed to the formation of a larger cultural identity that included influences from other peoples, like the Gow and the Songhai, illustrating the interconnectedness of power and cultural evolution in the region.",
+      "prediction": "The answer is not explicitly stated in the provided examples. However, according to historical records and other sources (not mentioned in the training dataset), the Sorko were a subgroup of the Songhai people, who dominated the region around Lake Chad in West Africa. The Sorko were a powerful state that emerged in the 14th century and played an important role in the history of the region until it was conquered by the Hausa states in the 16th century.",
+      "scores": {
+        "rouge_l": 0.2139,
+        "token_f1": 0.2205,
+        "key_fact_recall": 0.0,
+        "combined": 0.1448
+      }
+    },
+    {
+      "question": "What title did Yupanki assume after his victory over the Chanka?",
+      "reference": "Yupanki, victorious over the Chanka, adopted the title of **Pachacuti**, symbolizing a transformative period for both himself and the Inca Empire. This title not only commemorated his military success but also marked the start of his reign, which was characterized by internal disputes, particularly with his father. Once Pachacuti resolved these disputes and assumed control, he initiated a series of wars that led to the expansion of the empire. His leadership was significant, as it established the foundation for territorial conquests that would extend the Inca Empire across a vast region, contributing to its legacy as a major power in pre-Columbian South America.",
+      "prediction": "Unfortunately, I couldn't find any reference to \"Yupanki\" or its association with Pachacuti's reign. However, I can tell you that Pachacuti was a ruler of the Inca Empire and expanded it significantly during his reign. If you're looking for information on a specific title assumed by Yupanki after his victory over the Chanka, I couldn't find any relevant reference in the provided training dataset.",
+      "scores": {
+        "rouge_l": 0.1395,
+        "token_f1": 0.3566,
+        "key_fact_recall": 1.0,
+        "combined": 0.4987
+      }
+    },
+    {
+      "question": "What military campaigns and trade expeditions did Hatshepsut conduct during her reign?",
+      "reference": "Hatshepsut's reign was marked by a combination of military endeavors and trade activities that had lasting impacts on Egypt. Firstly, her military campaigns included incursions into Nubia and possibly southern Palestine, emphasizing her role in expanding Egypt's territorial influence. Simultaneously, her trade expedition to the mysterious land of Punt is particularly significant; it was a major operation using a large fleet that facilitated the acquisition of exotic trade goods. This dual approach of military and trade activities not only solidified Hatshepsut's power but also contributed to the flourishing economy of Egypt during her twenty-one years of rule.",
+      "prediction": "According to the reference, one notable expedition conducted by Hatshepsut was to Punt. The text does not provide specific details about other military campaigns or trade expeditions she may have undertaken during her reign. However, it is mentioned that her successful military campaigns and economic prosperity helped solidify her position as a ruler in a male-dominated society.",
+      "scores": {
+        "rouge_l": 0.1509,
+        "token_f1": 0.3387,
+        "key_fact_recall": 0.8,
+        "combined": 0.4299
+      }
+    },
+    {
+      "question": "What was the role of Buddhism in shaping the culture and society of Baekje during its emergence?",
+      "reference": "The emergence of Baekje was significantly influenced by Buddhism, which interwoven with the kingdom's political and social fabric, introducing innovative ideas and practices. Following its expansion from the Liao River region and the conquest of Mahan territory in 369, Baekje embraced Buddhism as a means to enhance its governance and cultural influence. The kingdom became a center for Buddhist learning and art, attracting monks who disseminated knowledge and artistic styles from afar. The cultural landscape of Baekje flourished as new artistic forms developed, exemplified by significant monuments like the Seokguram Grotto, reflecting Buddhist motifs and architecture. This fusion of Buddhism with local traditions not only enriched Baekje's culture but also positioned it as a vital player in the broader narrative of early Korean civilization.",
+      "prediction": "According to Example 2, Buddhism played a crucial role in the promotion and spread of Buddhist practices under King Ashoka's rule. However, there is no direct information about Buddhism's impact on Baekje specifically.\n\nHowever, we can make an educated inference from Example 3, which mentions that Pure Land Buddhism became popular with the masses during the Tang period. Although this example does not directly relate to Baekje, it suggests that Buddhist practices were influential in shaping culture and society.\n\nIn Example 1, there is no direct mention of Buddhism's role in shaping Baekje's culture and society. However, we can infer that cultural exchange between Baekje and other kingdoms, including those influenced by Buddhism (like Goguryeo), contributed to the evolution of Korean society during the Three Kingdoms period.\n\nIn summary, while there is limited direct information about Buddhism's role in shaping Baekje's culture and society, it is clear that Buddhist practices were influential in Korea during this time period.",
+      "scores": {
+        "rouge_l": 0.1724,
+        "token_f1": 0.2667,
+        "key_fact_recall": 0.6,
+        "combined": 0.3464
+      }
+    },
+    {
+      "question": "How does the savanna's climate differ from that of the desert and rainforest based on their general characteristics?",
+      "reference": "The savanna's climate presents a unique balance that is distinct from both desert and rainforest environments. Unlike the desert, which is characterized by extreme aridity and minimal rainfall, the savanna is wetter, receiving a more moderate amount of rain that supports its diverse flora and fauna. Additionally, while the rainforest is known for its year-round high humidity and consistent precipitation, the savanna experiences a marked seasonal variation, with a rainy season lasting about six months, primarily in the Sahel region, its northernmost part. This variability fosters a landscape that includes both grassy plains and patches of trees, setting it apart from the more uniform vegetation found in deserts and the dense, lush growth of rainforests.",
+      "prediction": "The savanna's climate is characterized by:\n\n* Seasonal rainfall, with significant variation compared to lush conditions of rainforests\n* A mix of grasses and scattered trees, allowing for diverse wildlife adaptation and human habitation\n* Greater precipitation than the desert, but less than the rainforest\n\nIn comparison to the desert (Sahara), the savanna is:\n\n* Wetter due to seasonal rainfall\n* Supports more biodiversity compared to the Sahara's dry conditions\n\nIn comparison to the rainforest, the savanna is:\n\n* Drier in terms of overall precipitation\n* Has a mix of grasses and trees, whereas rainforests are predominantly dense forests",
+      "scores": {
+        "rouge_l": 0.218,
+        "token_f1": 0.3857,
+        "key_fact_recall": 0.8,
+        "combined": 0.4679
+      }
+    },
+    {
+      "question": "What were the challenges Raziya faced during her reign as sultana of Delhi?",
+      "reference": "During her four-year reign, Raziya contended with multiple internal and external challenges that threatened her rule. Her rise to power was marked by a cunning appeal to the populace, yet her position remained precarious due to political discontent among the Muslim elite and the military. The resistance was exacerbated by her attempts to assert authority in a male-dominated environment, including her unconventional attire and approach to leadership, which stirred dissent among her subjects. This culminated in a rebellion led by her half-brother, resulting in her hiding and eventual downfall when she was captured and killed alongside her husband. Raziya's experience illustrates the complexities of governance amidst deep-seated traditional views and the political maneuvering of the time.",
+      "prediction": "According to the reference examples, some of the challenges Raziya faced during her reign as sultana of Delhi include:\n\n* Gaining acceptance and support from factions that were unwilling to accept a female sultan\n* Overcoming opposition from her half-brother who seized power after the death of her father\n* Addressing economic disruption caused by ten short-lived sultans whose rule often ended violently\n\nThese challenges highlight the power dynamics and struggles for leadership within the sultanate during this historical period.",
+      "scores": {
+        "rouge_l": 0.15,
+        "token_f1": 0.24,
+        "key_fact_recall": 0.6,
+        "combined": 0.33
+      }
+    }
+  ]
+}

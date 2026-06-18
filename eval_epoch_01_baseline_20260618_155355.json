@@ -1,0 +1,36 @@
+{
+  "model": "history-qa-epoch1",
+  "epoch": {
+    "name": "epoch_01_baseline",
+    "label": "Epoch 1: Baseline (3B, TF-IDF, top-3)",
+    "base_model": "llama3.2:3b",
+    "model_name": "history-qa-epoch1",
+    "rag_mode": "tfidf",
+    "top_k": 3,
+    "temperature": 0.2,
+    "num_ctx": 8192,
+    "prompt_level": "standard"
+  },
+  "eval_count": 1,
+  "evaluated_at": "2026-06-18T15:53:55.347120",
+  "summary": {
+    "count": 1,
+    "avg_rouge_l": 0.2247,
+    "avg_token_f1": 0.3614,
+    "avg_key_fact_recall": 0.6,
+    "avg_combined": 0.3954
+  },
+  "results": [
+    {
+      "question": "What were the key differences in the selection processes for government officials between the Song and Tang dynasties?",
+      "reference": "The governmental selection processes varied not only in structure but also in their philosophical foundations between the Tang and Song dynasties. The Tang dynasty's method of selecting mandarins was rooted in maintaining a balance of power between military leaders and civilian officials, as highlighted by the need to restrain generals through appointed mandarins. The reforms initiated during the Song dynasty, however, embraced a stronger commitment to Confucian ideals and the governance of scholar-officials. This reform was underpinned by the belief that superior leadership should stem from intellectual merit, leading to significant societal changes, such as the elevation of talented individuals from peasant backgrounds gaining access to official positions. Thus, while the Tang initially relied on a system that incorporated social elite advantages, the Song dynasty's reforms profoundly democratized official selection within the framework of Confucianism.",
+      "prediction": "According to the reference examples, the main difference in the selection processes for government officials between the Song and Tang dynasties was the introduction of a rigorous examination system based on Confucian texts during the Song dynasty.\n\nIn contrast, the Tang dynasty did not have a well-defined examination system. The reference mentions that the selection of mandarins evolved into this meritocratic approach during the Tang and Song dynasties, but it does not provide specific information about the Tang dynasty's selection process.\n\nIt is worth noting that the reference also mentions the role of Confucian values in shaping the governance of China during both dynasties. However, it specifically highlights the introduction of a rigorous examination system during the Song dynasty as a key difference from the Tang dynasty.",
+      "scores": {
+        "rouge_l": 0.2247,
+        "token_f1": 0.3614,
+        "key_fact_recall": 0.6,
+        "combined": 0.3954
+      }
+    }
+  ]
+}

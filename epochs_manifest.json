@@ -1,0 +1,55 @@
+{
+  "run_at": "2026-06-18T19:09:25.814473",
+  "epochs": [
+    {
+      "name": "epoch_01_baseline",
+      "label": "Epoch 1: Baseline (3B, TF-IDF, top-3)",
+      "base_model": "llama3.2:3b",
+      "model_name": "history-qa-epoch1",
+      "rag_mode": "tfidf",
+      "top_k": 3,
+      "temperature": 0.2,
+      "num_ctx": 8192,
+      "prompt_level": "standard"
+    },
+    {
+      "name": "epoch_02_larger_model",
+      "label": "Epoch 2: Larger model (8B, TF-IDF, top-3)",
+      "base_model": "llama3.1:8b",
+      "model_name": "history-qa-epoch2",
+      "rag_mode": "tfidf",
+      "top_k": 3,
+      "temperature": 0.2,
+      "num_ctx": 8192,
+      "prompt_level": "standard"
+    },
+    {
+      "name": "epoch_03_more_context",
+      "label": "Epoch 3: More RAG context (8B, TF-IDF, top-5)",
+      "base_model": "llama3.1:8b",
+      "model_name": "history-qa-epoch3",
+      "rag_mode": "tfidf",
+      "top_k": 5,
+      "temperature": 0.15,
+      "num_ctx": 12288,
+      "prompt_level": "standard"
+    },
+    {
+      "name": "epoch_04_best",
+      "label": "Epoch 4: Hybrid RAG + strict prompt (8B, top-5)",
+      "base_model": "llama3.1:8b",
+      "model_name": "history-qa-epoch4",
+      "rag_mode": "hybrid",
+      "top_k": 5,
+      "temperature": 0.1,
+      "num_ctx": 16384,
+      "prompt_level": "strict"
+    }
+  ],
+  "result_files": [
+    "/Users/antonio/PycharmProjects/HackathonProject/artifacts/results/eval_epoch_01_baseline_20260618_164218.json",
+    "/Users/antonio/PycharmProjects/HackathonProject/artifacts/results/eval_epoch_02_larger_model_20260618_172321.json",
+    "/Users/antonio/PycharmProjects/HackathonProject/artifacts/results/eval_epoch_03_more_context_20260618_181659.json",
+    "/Users/antonio/PycharmProjects/HackathonProject/artifacts/results/eval_epoch_04_best_20260618_190925.json"
+  ]
+}

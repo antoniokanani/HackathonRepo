@@ -1,0 +1,24 @@
+{
+  "model": "history-qa-epoch2",
+  "epoch": {
+    "name": "epoch_02_larger_model",
+    "label": "Epoch 2: Larger model (7B, TF-IDF, top-3)",
+    "base_model": "llama3.2:7b",
+    "model_name": "history-qa-epoch2",
+    "rag_mode": "tfidf",
+    "top_k": 3,
+    "temperature": 0.2,
+    "num_ctx": 8192,
+    "prompt_level": "standard"
+  },
+  "eval_count": 0,
+  "evaluated_at": "2026-06-18T15:58:23.171819",
+  "summary": {
+    "count": 0,
+    "avg_rouge_l": 0.0,
+    "avg_token_f1": 0.0,
+    "avg_key_fact_recall": 0.0,
+    "avg_combined": 0.0
+  },
+  "results": []
+}

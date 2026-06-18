@@ -1,0 +1,68 @@
+{
+  "model": "history-qa",
+  "eval_count": 5,
+  "summary": {
+    "count": 5,
+    "avg_rouge_l": 0.1835,
+    "avg_token_f1": 0.3344,
+    "avg_key_fact_recall": 0.32,
+    "avg_combined": 0.2793
+  },
+  "results": [
+    {
+      "question": "What were the key differences in the selection processes for government officials between the Song and Tang dynasties?",
+      "reference": "The governmental selection processes varied not only in structure but also in their philosophical foundations between the Tang and Song dynasties. The Tang dynasty's method of selecting mandarins was rooted in maintaining a balance of power between military leaders and civilian officials, as highlighted by the need to restrain generals through appointed mandarins. The reforms initiated during the Song dynasty, however, embraced a stronger commitment to Confucian ideals and the governance of scholar-officials. This reform was underpinned by the belief that superior leadership should stem from intellectual merit, leading to significant societal changes, such as the elevation of talented individuals from peasant backgrounds gaining access to official positions. Thus, while the Tang initially relied on a system that incorporated social elite advantages, the Song dynasty's reforms profoundly democratized official selection within the framework of Confucianism.",
+      "prediction": "According to the reference examples, the main difference in the selection processes for government officials between the Song and Tang dynasties was the introduction of a rigorous examination system by the Song dynasty. In contrast, during the Tang dynasty, there is no mention of such a system.\n\nHowever, it can be inferred that the Tang dynasty relied more on hereditary succession or possibly local military leaders, whereas the Song dynasty introduced a merit-based system based on Confucian texts, which allowed for social mobility and the selection of talented individuals from non-elite backgrounds.",
+      "scores": {
+        "rouge_l": 0.2328,
+        "token_f1": 0.4074,
+        "key_fact_recall": 0.6,
+        "combined": 0.4134
+      }
+    },
+    {
+      "question": "What term do some groups in North Africa use to refer to themselves instead of Berber?",
+      "reference": "Some groups in North Africa prefer to call themselves **Amazigh** (with its plural form being **Imazighen**) rather than Berber. This preference illustrates a significant cultural and emotional aspect of identity, as Amazigh is associated with a heritage of resilience and rich traditions formed through complex historical relationships among indigenous populations. The term not only signifies a distinct ethnic identity but also plays a crucial role in unifying different groups within the region, positing them against external narratives that may not fully capture their historical experiences and societal contributions.",
+      "prediction": "In North Africa, some groups prefer the term **Amazigh** (also spelled Amazigh or Imazighen) to refer to themselves instead of \"Berber\". This term is derived from the Latin word \"Barbarus\" and was used by outsiders to describe them. The Amazigh people consider this term derogatory, preferring their own identity as Amazigh.",
+      "scores": {
+        "rouge_l": 0.1871,
+        "token_f1": 0.3826,
+        "key_fact_recall": 1.0,
+        "combined": 0.5232
+      }
+    },
+    {
+      "question": "Who was the Persian king known for allowing exiled peoples to return to their homelands?",
+      "reference": "The Persian king **Cyrus II** is recognized for his pivotal role in the return of exiled peoples to their homelands, particularly the Judeans. His decree allowed those expelled from their territories, such as the Judeans in Babylon, to return and reconstruct their sacred temple in Judah. This action not only reflected Cyrus's policies of benevolence but also had lasting implications for Jewish history, particularly in terms of restoration and identity. By choosing not to impose Persian culture on the various groups under his rule, Cyrus II demonstrated a unique style of leadership that prioritized loyalty and tribute over cultural assimilation.",
+      "prediction": "The answer is Darius I. According to Example 1, following his reorganization of the Persian Empire, Darius I allowed satraps (provincial governors) to maintain order and collect taxes in their respective provinces, while also providing military support when necessary. This arrangement demonstrated the administrative sophistication of the Persian Empire and its ability to balance local governance with centralized control.",
+      "scores": {
+        "rouge_l": 0.1625,
+        "token_f1": 0.2131,
+        "key_fact_recall": 0.0,
+        "combined": 0.1252
+      }
+    },
+    {
+      "question": "What is celadon ceramic known for?",
+      "reference": "Celadon ceramic is renowned for its **lustrous green glaze**, a distinctive feature that sets it apart from other ceramic traditions. This ceramic was crafted by skilled Korean artisans who, over time, adopted techniques from China to create a variety of exquisite items such as **vases**, **jugs**, and **bowls**. The beauty of celadon ceramics is often enhanced with intricate **Buddhist motifs**, depicting symbols like cranes and clouds, which reflect the cultural and spiritual values of the period. Additionally, these ceramics played a vital role in supporting trade networks that facilitated commerce between China, Korea, and Japan in later centuries, indicating their importance in economic exchanges.",
+      "prediction": "Celadon ceramic is not mentioned in the provided reference examples. However, according to general knowledge, Celadon ceramic is a type of pale green glaze that was popular in East Asian ceramics during the Neolithic period, particularly in China and Korea. It is known for its distinctive color and is often associated with ancient Chinese ceramics from around 2000 BCE to 100 CE.",
+      "scores": {
+        "rouge_l": 0.1687,
+        "token_f1": 0.3529,
+        "key_fact_recall": 0.0,
+        "combined": 0.1739
+      }
+    },
+    {
+      "question": "Who was the Syrian teacher that brought Christianity to the kingdom of Aksum?",
+      "reference": "Christianity was brought to the kingdom of Aksum primarily through the efforts of **Frumentius**, a Syrian teacher. His arrival and subsequent teachings not only heralded the spread of Christianity in Aksum but also reflected broader trends of evangelism during that period. This introduction was crucial because it helped transform Aksum into one of the early Christian states in Africa, which had lasting implications for the region's religious landscape, influencing both culture and governance.",
+      "prediction": "Unfortunately, I couldn't find any information in the provided references about a specific Syrian teacher who brought Christianity to the Kingdom of Aksum. The reference mentions that Christianity spread within the kingdom, but it doesn't provide details about a specific individual who introduced it.",
+      "scores": {
+        "rouge_l": 0.1667,
+        "token_f1": 0.3158,
+        "key_fact_recall": 0.0,
+        "combined": 0.1608
+      }
+    }
+  ]
+}
